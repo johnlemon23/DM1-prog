@@ -1,0 +1,39 @@
+html {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  color: #014e79;
+}
+
+
+form {
+  margin: 3% 15%;
+}
+
+label,
+select {
+  display: block;
+}
+
+label {
+  font-size: 1.1em;
+  margin-right: 1em;
+}
+
+input,
+select {
+  flex-grow: 1;
+  font-size: 1em;
+  background-color: transparent;
+  border: 1px #014e79 solid;
+  border-radius: 3px;
+  color: #014e79;
+  padding: 0.2%;
+}
+
+/* Javascript */
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
